@@ -1,0 +1,29 @@
+doctype html
+html
+	head
+		title Noveno Elefante
+		meta(charset="utf8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="shortcut icon" href="assets/img/favicon.png")
+		link(rel="stylesheet" href="assets/css/main.css")
+		script(src="assets/js/typed.js" type="text/javascript")
+	body
+		section.home
+			video(autoplay loop poster="/assets//img/poster.png")
+				source(src="assets/video/novenoElefante.mp4" type="video/mp4") 
+				source(src="assets/video/novenoElefante.webm" type="video/webm") 
+			.overlay
+				img(src="assets/img/logo.png" alt="elefante")
+				.lead
+					h1 Noveno Elefante
+					h2 Cocina Vegana
+				.proximamente
+					h2 Estamos trabajando para ti
+					
+				//- .btn
+				//- 	span Menú
+				//- 	span Horarios
+
+		script(src="assets/js/jquery-2.1.4.min.js")
+		script(src="assets/js/functions.js" type="text/javascript")
+		

@@ -1,0 +1,98 @@
+section.home
+	position: absolute
+	top: 0
+	bottom: 0
+	width: 100%
+	height: 100%
+	overflow: hidden
+	video
+		min-width: 100%
+		min-height: 100%
+		width: auto
+		height: auto
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+	.overlay
+		position: absolute
+		top: 0
+		right: 0
+		bottom: 0
+		left: 0
+		background: rgba(0,0,0, 0.6)
+		img
+			display: block
+			margin: 80px auto
+			max-width: 150px
+		.lead
+			h1
+				color: $green
+				font-size: 4em
+				letter-spacing: 5px
+				text-align: center
+			h2
+				margin-top: -20px
+				font-size: 2.5em
+				text-align: center
+				letter-spacing: 5px
+		.proximamente
+			h2
+				text-align: center
+				letter-spacing: 2px
+		.btn
+			width: 404px
+			position: relative
+			left: 50%
+			transform: translateX(-50%)
+			top: 30px
+			span
+				cursor: pointer
+				color: $green
+				position: relative
+				padding: 5px 10px
+				border: solid 1px $green
+				border-radius: 30px
+				width: 100px
+				display: inline-block
+				text-align: center
+				font-size: 1.2em
+				margin-right: 40px
+				margin-left: 40px
+@media (max-width: 640px)
+	section.home
+		video
+			min-width: 100%
+			min-height: 100%
+			width: auto
+			height: auto
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%,-50%)
+		.overlay
+			position: absolute
+			top: 0
+			right: 0
+			bottom: 0
+			left: 0
+			background: rgba(0,0,0, 0.6)
+			img
+				display: block
+				margin: 80px auto
+				max-width: 90px !important
+			.lead
+				h1
+					color: $green
+					font-size: 2em !important
+					letter-spacing: 5px
+					text-align: center
+				h2
+					margin-top: 0px !important
+					font-size: 1.5em !important
+					text-align: center
+					letter-spacing: 5px
+			.proximamente
+				h2
+					margin-top: 30px
+					text-align: center
